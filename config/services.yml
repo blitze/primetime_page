@@ -1,0 +1,10 @@
+services:
+
+    page.controller.page:
+        class: phpbb_ext_primetime_page_controller_page
+        arguments:
+            - @request
+            - @user
+            - @template
+            - @dbal.conn
+            - @controller.helper

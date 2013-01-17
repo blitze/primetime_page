@@ -1,0 +1,3 @@
+page_controller:
+    pattern: /page/{page}
+    defaults: { _controller: page.controller.page:display }
