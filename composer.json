@@ -1,21 +1,21 @@
 {
 	"name": "primetime/pages",
-	"type": "phpbb3-extension",
-	"description": "An example/sample extension to be used for testing purposes in phpBB Development.",
+    "type": "phpbb-extension",
+	"description": "Create and manage pages",
 	"homepage": "http://www.mylatterdays.com",
 	"version": "1.0.0",
-	"time": "2012-02-15 01:01:01",
+	"time": "2014-03-08 01:01:01",
 	"licence": "GPL-2.0",
 	"authors": [{
 			"name": "Daniel A.",
 			"username": "Blitze",
 			"email": "shizzah@hotmail.com",
 			"homepage": "http://www.mylatterdays.com",
-			"role": "Contributor"
+			"role": "Developer"
 		}],
 	"require": {
 		"php": ">=5.3",
-		"phpbb": "3.1.0-dev"
+		"phpbb/phpbb": "3.1.*@dev"
 	},
 	"extra": {
 		"display-name": "phpBB Primetime Pages"

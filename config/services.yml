@@ -1,7 +1,7 @@
 services:
 
-    page.controller.page:
-        class: phpbb_ext_primetime_page_controller_page
+    pages.controller.display:
+        class: primetime\pages\controller\display
         arguments:
             - @request
             - @user
